@@ -6,11 +6,20 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>Castil</title>
     </head>
     <body>
-        <?php
-        // put your code here
-        ?>
+        <form action="results.php" method="post">
+            <p>Ingrese el país</p><input type="text" name="pais" id="pais"/>
+            <p>Ingrese la región</p>
+                        <select name="region" id="region">
+                            <option value="Caribbean">Caribbean</option>
+                            <option value="Eastern Africa">Eastern Africa</option>  
+                            <option value="Eastern Asia">Eastern Asia</option>
+                            <option value="Central America">Central America</option>                            
+                        </select>
+            <button type="submit">Enviar</button>
+            <br><br><br>
+        </form>
     </body>
 </html>
